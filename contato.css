@@ -1,0 +1,133 @@
+*
+header
+{
+    background: #BBBBBB;
+    padding: 20px 0px;
+
+}
+.caixa
+{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+nav
+{
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+nav li
+{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+nav a 
+{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+nav a:hover
+{
+    color: #C78C19;
+    text-decoration: underline;
+
+}
+nav a:active
+{
+    color: aqua;
+}
+
+
+main
+{
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+form
+{
+    margin: 40px 0;
+
+}
+form label, form legend
+{
+    display: block;
+    font-size: 20px;
+    margin:0 0 10px;
+}
+.inputBlock
+{
+    display: block;
+    margin:0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox
+{
+    margin: 20px 0;
+}
+
+.horario
+{
+    margin-top: 20px;
+   
+}
+
+.botao
+{
+    width: 40%;
+    background: #CCCCCC;
+    padding: 1%;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+.botao:hover
+{
+    background: rgb(107, 106, 106);
+    transform: scale(1.1);
+}
+
+footer
+{
+    text-align: center;
+    background:url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copy
+{
+    color: white;
+    font-size:13px;
+    margin-top: 20px;
+    
+}
+
+table
+{
+    margin: 20px 0px 40px;
+   
+}
+thead
+{
+    background: #CCCCCC;
+    font-weight: bold;
+}
+
+td, th
+{
+    border: 1px solid #000000;
+    padding: 15px 30px;
+}
